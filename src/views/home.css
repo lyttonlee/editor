@@ -1,0 +1,50 @@
+.page {
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+}
+
+.page .option {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.page .content {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  border: .5px solid #999;
+  box-sizing: border-box;
+}
+.page .btn {
+  color: #999;
+  width: 150px;
+  box-sizing: border-box;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 15px;
+  background: none;
+  border: .5px solid rgb(212, 212, 212);
+  border-radius: 20px;
+  vertical-align: middle;
+  box-shadow: 6px 6px 12px rgb(221, 221, 221);
+  cursor: pointer;
+  margin: 0 30px;
+}
+
+.page .btn:focus {
+  outline: none;
+}
+
+.page .tip {
+  background: rgba(231, 231, 231, 0.479);
+  margin: 20px auto;
+  max-width: 1600px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-left: 5px solid rgb(112, 112, 112);
+}
+
+.page .line {
+  margin-top: 35px; 
+}

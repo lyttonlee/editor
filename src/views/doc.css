@@ -1,0 +1,10 @@
+.page {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  /* background: whitesmoke; */
+  padding: 30px 0;
+  height: calc(100vh - 60px);
+  overflow: auto;
+  box-sizing: border-box;
+}
