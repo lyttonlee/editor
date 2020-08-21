@@ -25,7 +25,8 @@ function Home () {
     setEdit(!edit)
   }
   function updateInfo (info) {
-    console.log(info)
+    return
+    // console.log(info)
     // do something with info save , submit
   }
   return (
@@ -46,6 +47,7 @@ function Home () {
         <Editor 
           token={token}
           getToken={getToken}
+          updateInfo={updateInfo}
           domain="http://editor.huili.cool/"
           customStyle={{height: '50vh', overflow: 'auto'}}
           theme={theme}
